@@ -15,4 +15,5 @@ and
 ![equation](https://latex.codecogs.com/gif.latex?m%28x%29%20%3D%20x%20-%20x%5E3)
 
 with their respective Fourier sine, quarter-wave sine, and quarter-wave
-cosine series for different values of N, along with a bit of commentary.
+cosine series defined on the interval [0,1] for different values of N,
+along with a bit of commentary.
