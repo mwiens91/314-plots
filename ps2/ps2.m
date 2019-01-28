@@ -36,3 +36,20 @@ mNs = compute_many_series(ns, xs, m_term);
 % Plot them
 plot_series(xs, ns, h, hNs, line_styles, "h", "h(x) with quarter-wave sine series");
 plot_series(xs, ns, m, mNs, line_styles, "m", "m(x) with quarter-wave sine series");
+
+%% Fourier quarter-wave cosine series
+% Term functions
+h_term = @(x, n) 8/(pi^2*(2*n-1)^2) * ...
+                 (sqrt(2)*(sin(pi*n/2) + cos(pi*n/2)) - 1) * ...
+                 cos((2*n-1)*pi/2*x);
+m_term = @(x, n) 8/((2*n-1)^4*pi^4) * ...
+                 (-4*pi^2*n^2 + 4*pi^2*n - pi^2+24*(-1)^(1+n)*n*pi-24+12*(-1)^n*pi) * ... % TODO CLEAN THIS UP!!!
+                 cos((2*n-1)*pi/2*x);
+
+% Compute these series for different n values
+hNs = compute_many_series(ns, xs, h_term);
+mNs = compute_many_series(ns, xs, m_term);
+
+% Plot them
+plot_series(xs, ns, h, hNs, line_styles, "h", "h(x) with quarter-wave cosine series");
+plot_series(xs, ns, m, mNs, line_styles, "m", "m(x) with quarter-wave cosine series");
