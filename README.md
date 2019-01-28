@@ -20,10 +20,23 @@ along with a bit of commentary.
 
 ### Plots
 
+All of the plots show h or m plotted alongside trucated Fourier series
+with N in {1, 3, 15}. The Fourier series at the boundary of the interval
+has different behavior for different kinds of Fourier series, but in
+general we can see that, regardless of the kind of Fourier series, their
+truncations well-appoximate the function for low N (demonstrated by N =
+3 in the plots) and produce an excellent approximation for slightly
+higher values of N (demonstrated by N = 15 in the plots).
+
 ### Fourier sine series
 
 [[h(x)]](ps2/figs/h_sine.png)
 [[m(x)]](ps2/figs/m_sine.png)
+
+The Dirichlet boundary conditions require that the sine series vanish at
+the boundaries. It also happens that both h(x) and m(x) vanish at the
+boundaries. This explains why the functions and their respective series
+agree at the boundaries.
 
 ### Fourier quarter-wave sine series
 
