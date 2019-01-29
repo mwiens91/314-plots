@@ -95,11 +95,14 @@ verify the solution is correct by comparing against the exact solution.
 
 #### 5.3.1 (b)
 
-[ plot ]
+[[ plot ]](ps2/figs/5_3_1_b.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%201%2C%20u%280%29%20%3D%200%2C%20u%281%29%20%3D1)
 
-[ description here ]
+The boundary conditions are again satisfied. It's obvious here that the
+solution is dominated by the term x in the solution (you can see from
+5.3.1 (a) that the contribution from the Fourier sine series terms is
+small).
 
 #### 5.3.3 (b)
 
