@@ -6,6 +6,8 @@ University.
 
 ## Problem set 2
 
+### Part (a)
+
 Plots of
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20h%28x%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20-%20%5Cleft%20%7C%20x%20-%20%5Cfrac%7B1%7D%7B2%7D%20%5Cright%20%7C)
@@ -18,7 +20,7 @@ with their respective Fourier sine, quarter-wave sine, and quarter-wave
 cosine series defined on the interval [0,1] for different values of N,
 along with a bit of commentary.
 
-### Plots
+#### Plots
 
 All of the plots show h(x) or m(x) plotted alongside truncated Fourier
 series for N in {1, 3, 15}. The Fourier series at the boundary of the
@@ -29,7 +31,7 @@ series, their truncations well approximate the function for low N
 approximation for slightly higher values of N (demonstrated by N = 15 in
 the plots).
 
-### Fourier sine series
+#### Fourier sine series
 
 plots:
 [[h(x)]](ps2/figs/h_sine.png)
@@ -40,7 +42,7 @@ the boundaries. It also happens that both h(x) and m(x) vanish at the
 boundaries. This explains why the functions and their respective series
 agree at the boundaries.
 
-### Fourier quarter-wave sine series
+#### Fourier quarter-wave sine series
 
 plots:
 [[h(x)]](ps2/figs/h_quarter-sine.png)
@@ -58,7 +60,7 @@ or m(x), which both have a significantly negative derivative at x = 1;
 the result of this is that the quarter-wave sine series fails to
 approximate either h(x) or m(x) well in the neighbourhood of x = 1.
 
-### Fourier quarter-wave cosine series
+#### Fourier quarter-wave cosine series
 
 plots:
 [[h(x)]](ps2/figs/h_quarter-cosine.png)
