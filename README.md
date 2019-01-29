@@ -2,7 +2,9 @@
 
 This is a collection of plots used for MATH 314: "Introduction to
 Fourier Methods and Partial Differential Equations" at Simon Fraser
-University.
+University. Any x.x.x numbering refers to problem numbers from the
+textbook Partial Differential Equations (2nd Edition) by Mark S.
+Gockenbach.
 
 ## Problem set 2
 
@@ -34,8 +36,8 @@ the plots).
 #### Fourier sine series
 
 plots:
-[[h(x)]](ps2/figs/h_sine.png)
-[[m(x)]](ps2/figs/m_sine.png)
+[[ h(x) ]](ps2/figs/h_sine.png)
+[[ m(x) ]](ps2/figs/m_sine.png)
 
 The Dirichlet boundary conditions require that the sine series vanish at
 the boundaries. It also happens that both h(x) and m(x) vanish at the
@@ -45,8 +47,8 @@ agree at the boundaries.
 #### Fourier quarter-wave sine series
 
 plots:
-[[h(x)]](ps2/figs/h_quarter-sine.png)
-[[m(x)]](ps2/figs/m_quarter-sine.png)
+[[ h(x) ]](ps2/figs/h_quarter-sine.png)
+[[ m(x) ]](ps2/figs/m_quarter-sine.png)
 
 The boundary conditions
 
@@ -63,8 +65,8 @@ approximate either h(x) or m(x) well in the neighbourhood of x = 1.
 #### Fourier quarter-wave cosine series
 
 plots:
-[[h(x)]](ps2/figs/h_quarter-cosine.png)
-[[m(x)]](ps2/figs/m_quarter-cosine.png)
+[[ h(x) ]](ps2/figs/h_quarter-cosine.png)
+[[ m(x) ]](ps2/figs/m_quarter-cosine.png)
 
 The boundary conditions
 
@@ -76,3 +78,68 @@ with the boundaries "flipped"). At x = 1, the series vanish, just like
 the functions h(x) and m(x), resulting in a good approximation to these
 functions around x = 1. At x = 0, the series derivatives vanish, unlike
 h(x) and m(x), resulting in a poor approximation around x = 0.
+
+### Part (b)
+
+Plots to the solutions of a bunch of BVPs along on the interval [0, 1].
+The heading titles refer to problems 
+
+#### 5.3.1 (a)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%201%2C%20u%280%29%20%3D%20u%281%29%20%3D%200)
+
+[ description here ]
+
+#### 5.3.1 (b)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%201%2C%20u%280%29%20%3D%200%2C%20u%281%29%20%3D1)
+
+[ description here ]
+
+#### 5.3.3 (b)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20x%2C%20%5Cfrac%7Bdu%7D%7Bdx%7D%280%29%20%3D%200%2C%20u%281%29%20%3D%201)
+
+[ description here ]
+
+#### 5.3.3 (c)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20&plus;%202u%20%3D%201%2C%20u%280%29%20%3D%20u%281%29%20%3D%200)
+
+[ description here ]
+
+#### 5.3.3 (d)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20&plus;%20u%20%3D%200%2C%20u%280%29%20%3D%200%2C%20u%281%29%20%3D%201)
+
+[ description here ]
+
+#### 5.3.4 (c)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20x%20&plus;%20sin%28%5Cpi%20x%29%2C%20u%280%29%20%3D%20%5Cfrac%7Bdu%7D%7Bdx%7D%281%29%20%3D%200)
+
+[ description here ]
+
+#### 5.3.4 (d)
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20f%28x%29%2C%20%5Cfrac%7Bdu%7D%7Bdx%7D%280%29%20%3D%20u%281%29%20%3D%200)
+
+where
+
+![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%201%2C%200%20%3C%20x%20%3C%20%5Cfrac%7B1%7D%7B2%7D%5C%5C%200%2C%20%5Cfrac%7B1%7D%7B2%7D%20%3C%20x%20%3C%201%20%5Cend%7Bmatrix%7D%5Cright.)
+
+[ description here ]
