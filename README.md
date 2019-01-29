@@ -82,7 +82,6 @@ h(x) and m(x), resulting in a poor approximation around x = 0.
 ### Part (b)
 
 Plots to the solutions of a bunch of BVPs along on the interval [0, 1].
-The heading titles refer to problems 
 
 #### 5.3.1 (a)
 
