@@ -27,3 +27,17 @@ plot(xs, uN, 'k');
 title("5.3.1 (b)");
 
 hold off
+
+%% 5.3.3 (b)
+
+u_term = @(x, n) 16/((2*n-1)^4*pi^4) * ((2*n-1)*pi*(-1)^(n+1) - 2) * ...
+                 cos((2*n-1)*pi/2*x);
+uN = 1 + compute_series(1, n, 0, u_term, xs);
+
+figure()
+hold on
+
+plot(xs, uN, 'k');
+title("5.3.3 (b)");
+
+hold off
