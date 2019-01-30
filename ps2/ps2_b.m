@@ -41,3 +41,29 @@ plot(xs, uN, 'k');
 title("5.3.3 (b)");
 
 hold off
+
+%% 5.3.3 (c)
+
+u_term = @(x, n) 2/(n*pi*(n^2*pi^2+2)) * (1+(-1)^(n+1)) * sin(n*pi*x);
+uN = compute_series(1, n, 0, u_term, xs);
+
+figure()
+hold on
+
+plot(xs, uN, 'k');
+title("5.3.3 (c)");
+
+hold off
+
+%% 5.3.3 (d)
+
+u_term = @(x, n) 2*(-1)^n/(n*pi*(n^2*pi^2+1)) * sin(n*pi*x);
+uN = xs + compute_series(1, n, 0, u_term, xs);
+
+figure()
+hold on
+
+plot(xs, uN, 'k');
+title("5.3.3 (d)");
+
+hold off

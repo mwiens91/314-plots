@@ -99,9 +99,8 @@ verify the solution is correct by comparing against the exact solution.
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%201%2C%20u%280%29%20%3D%200%2C%20u%281%29%20%3D1)
 
 The boundary conditions are again satisfied. It's obvious here that the
-solution is dominated by the term x in the solution (you can see from
-5.3.1 (a) that the contribution from the Fourier sine series terms is
-small).
+solution is dominated by the term x (you can see from 5.3.1 (a) that the
+contribution from the Fourier sine series terms is small).
 
 #### 5.3.3 (b)
 
@@ -113,23 +112,24 @@ The boundary conditions are satisfied. Nothing else significant here.
 
 #### 5.3.3 (c)
 
-[ plot ]
+[[ plot ]](ps2/figs/5_3_3_c.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20&plus;%202u%20%3D%201%2C%20u%280%29%20%3D%20u%281%29%20%3D%200)
 
-[ description here ]
+Boundary conditions satisfied. Nothing exciting here.
 
 #### 5.3.3 (d)
 
-[ plot ]
+[[ plot ]](ps2/figs/5_3_3_d.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20&plus;%20u%20%3D%200%2C%20u%280%29%20%3D%200%2C%20u%281%29%20%3D%201)
 
-[ description here ]
+Boundary conditions satisfied. We see here that just like 5.3.1 (b), the
+x term in the solution of u is dominating its behaviour.
 
 #### 5.3.4 (c)
 
-[ plot ]
+[[ plot ]](ps2/figs/5_3_4_c.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20x%20&plus;%20sin%28%5Cpi%20x%29%2C%20u%280%29%20%3D%20%5Cfrac%7Bdu%7D%7Bdx%7D%281%29%20%3D%200)
 
@@ -137,7 +137,7 @@ The boundary conditions are satisfied. Nothing else significant here.
 
 #### 5.3.4 (d)
 
-[ plot ]
+[[ plot ]](ps2/figs/5_3_4_d.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20f%28x%29%2C%20%5Cfrac%7Bdu%7D%7Bdx%7D%280%29%20%3D%20u%281%29%20%3D%200)
 
