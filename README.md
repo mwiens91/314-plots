@@ -133,7 +133,7 @@ x term in the solution of u is dominating its behaviour.
 
 ![equation](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%20x%20&plus;%20sin%28%5Cpi%20x%29%2C%20u%280%29%20%3D%20%5Cfrac%7Bdu%7D%7Bdx%7D%281%29%20%3D%200)
 
-[ description here ]
+Boundary conditions are satisfied. Nothing else exciting.
 
 #### 5.3.4 (d)
 
@@ -145,4 +145,5 @@ where
 
 ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%201%2C%200%20%3C%20x%20%3C%20%5Cfrac%7B1%7D%7B2%7D%5C%5C%200%2C%20%5Cfrac%7B1%7D%7B2%7D%20%3C%20x%20%3C%201%20%5Cend%7Bmatrix%7D%5Cright.)
 
-[ description here ]
+Boundary conditions satisfied. The solution makes sense—the function
+initially has negative curvature and then has no curvature.
