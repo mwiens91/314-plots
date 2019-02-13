@@ -165,3 +165,7 @@ Plots of solutions of IBVPs for different points in time.
 [[ plot ]](ps3/figs/6_1_7.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20t%20%7D%20-%20%5Cfrac%20%7B%20%5Cpartial%20%5E%20%7B%202%20%7D%20u%20%7D%20%7B%20%5Cpartial%20x%20%5E%20%7B%202%20%7D%20%7D%20%26%20%3D%200%2C0%20%3C%20x%20%3C%201%20%2C%20t%20%3E%200%20%5C%5C%20u%20%28%20x%20%2C%200%20%29%20%26%20%3D%20x%20%2C%200%20%3C%20x%20%3C%201%20%5C%5C%20u%20%28%200%20%2C%20t%20%29%20%26%20%3D%200%20%2C%20t%20%3E%200%20%5C%5C%20u%20%28%201%20%2C%20t%20%29%20%26%20%3D%20%5Ccos%20%28%20t%20%29%20%2C%20t%20%3E%200%20%5Cend%7Baligned%7D)
+
+#### 6.2.2
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20t%20%7D%20-%20%5Cfrac%20%7B%20%5Cpartial%20%5E%20%7B%202%20%7D%20u%20%7D%20%7B%20%5Cpartial%20x%20%5E%20%7B%202%20%7D%20%7D%20%26%20%3D%20%5Cfrac%20%7B%201%20%7D%20%7B%202%20%7D%20-%20x%20%2C%200%20%3C%20x%20%3C%201%20%2C%20t%20%3E%200%20%5C%5C%20u%20%28%20x%20%2C%200%20%29%20%26%20%3D%20x%20%28%201%20-%20x%20%29%20%2C%200%20%3C%20x%20%3C%201%20%5C%5C%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20x%20%7D%20%28%200%20%2C%20t%20%29%20%26%20%3D%200%20%2C%20t%20%3E%200%20%5C%5C%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20x%20%7D%20%28%201%20%2C%20t%20%29%20%26%20%3D%200%20%2C%20t%20%3E%200%20%5Cend%7Baligned%7D)
