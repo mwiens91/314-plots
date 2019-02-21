@@ -1,6 +1,5 @@
 % Set values for plotting
-num_xs = 150;
-xs = linspace(0, 1, num_xs);
+xs = linspace(0, 1, 150);
 
 %% 6.1.4
 
@@ -81,7 +80,6 @@ n_term = @(x, t, n) ...
   ) * ...
   cos(n*pi*x);
 a0 = 1/6;
-a0_vec = a0 * ones(1, num_xs);
 
 % Fourier series values for different t
 ts = [0, 0.02, 0.04, 0.06];
@@ -91,7 +89,7 @@ row = 1;
 for t = ts
   f = 0;
 
-  for n = 1:2
+  for n = 1:100
     f = f + n_term(xs, t, n);
   end
 
@@ -101,9 +99,19 @@ for t = ts
   row = row + 1;
 end
 
+% Fourier series values for steady state
+n_term = @(x, n) 2/lambda(n)^2*(1-(-1)^n)*cos(n*pi*x);
+fss = zeros(1, length(xs));
+
+for n = 1:100
+  fss = fss + n_term(xs, n);
+end
+
+fss = fss + a0;
+
 % Plotting the computed series
 figure();
-plot(xs, fs(1, :), 'k.', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.', xs, a0_vec, 'k-');
+plot(xs, fs(1, :), 'k.', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.', xs, fss, 'k-');
 
 legend([strcat('u(x, ', string(ts), ')'), 'steady state']);
 title('6.2.2');
