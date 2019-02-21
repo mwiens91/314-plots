@@ -32,6 +32,7 @@ figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
 legend(strcat('u(x, ', string(ts), ')'));
+title('6.1.4');
 
 %% 6.1.7
 
@@ -66,3 +67,4 @@ figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
 legend(strcat('u(x, ', string(ts), ')'));
+title('6.1.7');
