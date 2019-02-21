@@ -31,7 +31,7 @@ end
 figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
-legend(["t=0", "t=2", "t=3", "t=5"]);
+legend(strcat('u(x, ', string(ts), ')'));
 
 %% 6.1.7
 
@@ -65,4 +65,4 @@ end
 figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
-legend(["t=0", "t=2", "t=3", "t=5"]);
+legend(strcat('u(x, ', string(ts), ')'));
