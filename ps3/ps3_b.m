@@ -1,6 +1,7 @@
 % Set values for plotting
 xs = linspace(0, 1, 300);
 ts = [0, 1, 2, 3];
+max_n = 6969;
 
 % Damping terms
 as = [-1, 0, 1];
@@ -31,7 +32,7 @@ for a = as
   for t = ts
     f = c0 * exp(-lambda(0, a) * t);
 
-    for n = 1:100
+    for n = 1:max_n
       f = f + n_term(xs, t, n, a);
     end
 
@@ -66,7 +67,7 @@ for a = as
   for t = ts
     f = c0 * exp(-lambda(0, a) * t);
 
-    for n = 1:100
+    for n = 1:max_n
       f = f + n_term(xs, t, n, a);
     end
 
