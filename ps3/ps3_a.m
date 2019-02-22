@@ -1,7 +1,10 @@
 % Set values for plotting
 xs = linspace(0, 1, 150);
+max_n = 100;
 
 %% 6.1.4
+
+problem_number = '6.1.4';
 
 % Fourier sine series terms
 lambda = @(n) n^2 * pi^2;
@@ -19,7 +22,7 @@ row = 1;
 for t = ts
   f = 0;
 
-  for n = 1:100
+  for n = 1:max_n
     f = f + n_term(xs, t, n);
   end
 
@@ -32,9 +35,11 @@ figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
 legend(strcat('u(x, ', string(ts), ')'));
-title('6.1.4');
+title(strcat(problem_number, ' (n=', string(max_n), ')'));
 
 %% 6.1.7
+
+problem_number = '6.1.7';
 
 % Fourier sine series terms
 lambda = @(n) n^2 * pi^2;
@@ -52,7 +57,7 @@ row = 1;
 for t = ts
   f = 0;
 
-  for n = 1:100
+  for n = 1:max_n
     f = f + n_term(xs, t, n);
   end
 
@@ -67,9 +72,11 @@ figure();
 plot(xs, fs(1, :), 'k', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.');
 
 legend(strcat('u(x, ', string(ts), ')'));
-title('6.1.7');
+title(strcat(problem_number, ' (n=', string(max_n), ')'));
 
 %% 6.2.2
+
+problem_number = '6.2.2';
 
 % Fourier cosine series terms (n > 0)
 lambda = @(n) n^2 * pi^2;
@@ -89,7 +96,7 @@ row = 1;
 for t = ts
   f = 0;
 
-  for n = 1:100
+  for n = 1:max_n
     f = f + n_term(xs, t, n);
   end
 
@@ -103,7 +110,7 @@ end
 n_term = @(x, n) 2/lambda(n)^2*(1-(-1)^n)*cos(n*pi*x);
 fss = zeros(1, length(xs));
 
-for n = 1:100
+for n = 1:max_n
   fss = fss + n_term(xs, n);
 end
 
@@ -114,4 +121,4 @@ figure();
 plot(xs, fs(1, :), 'k.', xs, fs(2, :), 'k--', xs, fs(3, :), 'k:', xs, fs(4, :), 'k-.', xs, fss, 'k-');
 
 legend([strcat('u(x, ', string(ts), ')'), 'steady state']);
-title('6.2.2');
+title(strcat(problem_number, ' (n=', string(max_n), ')'));

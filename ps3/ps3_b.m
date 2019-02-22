@@ -1,7 +1,7 @@
 % Set values for plotting
 xs = linspace(0, 1, 300);
 ts = [0, 1, 2, 3];
-max_n = 6969;
+max_n = 6900;
 
 % Damping terms
 as = [-1, 0, 1];
@@ -50,7 +50,7 @@ for a = as
   );
 
   legend(strcat('u(x, ', string(ts), ')'));
-  title(strcat('1(a) with \alpha=', string(a)));
+  title(strcat('1(a) with \alpha=', string(a), ' (n=', string(max_n), ')'));
 end
 
 %% 1 (b)
@@ -85,5 +85,5 @@ for a = as
   );
 
   legend(strcat('u(x, ', string(ts), ')'));
-  title(strcat('1(b) with \alpha=', string(a)));
+  title(strcat('1(b) with \alpha=', string(a), ' (n=', string(max_n), ')'));
 end
