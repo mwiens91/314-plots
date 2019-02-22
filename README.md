@@ -171,3 +171,12 @@ Plots of solutions of IBVPs for different points in time.
 [[ plot ]](ps3/figs/6_2_2.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20t%20%7D%20-%20%5Cfrac%20%7B%20%5Cpartial%20%5E%20%7B%202%20%7D%20u%20%7D%20%7B%20%5Cpartial%20x%20%5E%20%7B%202%20%7D%20%7D%20%26%20%3D%20%5Cfrac%20%7B%201%20%7D%20%7B%202%20%7D%20-%20x%20%2C%200%20%3C%20x%20%3C%201%20%2C%20t%20%3E%200%20%5C%5C%20u%20%28%20x%20%2C%200%20%29%20%26%20%3D%20x%20%28%201%20-%20x%20%29%20%2C%200%20%3C%20x%20%3C%201%20%5C%5C%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20x%20%7D%20%28%200%20%2C%20t%20%29%20%26%20%3D%200%20%2C%20t%20%3E%200%20%5C%5C%20%5Cfrac%20%7B%20%5Cpartial%20u%20%7D%20%7B%20%5Cpartial%20x%20%7D%20%28%201%20%2C%20t%20%29%20%26%20%3D%200%20%2C%20t%20%3E%200%20%5Cend%7Baligned%7D)
+
+### Part (b)
+
+Plot
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Barray%7D%20%7B%20l%20%7D%20%7B%20u%20_%20%7B%20t%20%7D%20%3D%20u%20_%20%7B%20x%20x%20%7D%20-%20%5Calpha%20u%20%5Cquad%20%5Ctext%20%7B%20on%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%2C%20%5Cquad%20t%20%3E%200%20%7D%20%5C%5C%20%7B%20u%20%28%20x%20%2C%200%20%29%20%3D%20%5Cpsi%20%28%20x%20%29%20%5Cquad%20%5Ctext%20%7B%20for%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%7D%20%5Cend%7Barray%7D)
+
+for Neumann and periodic boundary conditions with a forcing function
+which is 1 on x = 1/4 to 3/4 and 0 otherwise.
