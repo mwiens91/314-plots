@@ -7,7 +7,7 @@ max_n = 6969;
 as = [-1, 0, 1];
 
 % Initial condition Fourier coefficients
-c0 = 1;
+c0 = 1/2;
 c = @(n) 2/(n*pi)*(sin(3*n*pi/4) - sin(n*pi/4));
 d = @(n) -2/(n*pi)*(cos(3*n*pi/4) - cos(n*pi/4));
 
