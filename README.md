@@ -180,3 +180,19 @@ Plots of solutions of IBVPs for different points in time.
 
 for Neumann and periodic boundary conditions with the specific initial
 condition Ψ which is 1 on x = 1/4 to 3/4 and 0 otherwise.
+
+## Problem set 4
+
+### Part (a)
+
+Plot the errors of the truncated Fourier complex series
+
+![equation](https://latex.codecogs.com/gif.latex?f%20%28%20x%20%29%20-%20%5Csum%20_%20%7B%20n%20%3D%20-%20N%20%7D%20%5E%20%7B%20N%20%7D%20c%20_%20%7B%20n%20%7D%20e%20%5E%20%7B%20i%20n%20x%20%7D)
+
+for different values of N.
+
+#### 12.1.2
+
+[ plot ]
+
+f(x) = x on the interval [-π, π].
