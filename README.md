@@ -193,6 +193,6 @@ for different values of N.
 
 #### 12.1.2
 
-[ plot ]
+[[ plot ]](ps4/figs/parta/12_1_2.png)
 
 f(x) = x on the interval [-π, π].
