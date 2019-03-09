@@ -37,5 +37,7 @@ errors = abs(fs - repmat(xs, length(ns), 1));
 figure();
 plot(xs, errors(1, :), 'k', xs, errors(2, :), 'k--', xs, errors(3, :), 'k:');
 
+xlabel('x');
+xlim([-pi, pi]);
 legend(strcat('error for n=', string(ns)));
 title(strcat(problem_number, ' absolute error'));
