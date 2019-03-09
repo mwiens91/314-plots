@@ -179,13 +179,15 @@ Plots of solutions of IBVPs for different points in time.
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Barray%7D%20%7B%20l%20%7D%20%7B%20u%20_%20%7B%20t%20%7D%20%3D%20u%20_%20%7B%20x%20x%20%7D%20-%20%5Calpha%20u%20%5Cquad%20%5Ctext%20%7B%20on%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%2C%20%5Cquad%20t%20%3E%200%20%7D%20%5C%5C%20%7B%20u%20%28%20x%20%2C%200%20%29%20%3D%20%5Cpsi%20%28%20x%20%29%20%5Cquad%20%5Ctext%20%7B%20for%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%7D%20%5Cend%7Barray%7D)
 
 for Neumann and periodic boundary conditions with the specific initial
-condition Ψ which is 1 on x = 1/4 to 3/4 and 0 otherwise.
+condition
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bl%7D%7B1%2C%5Cfrac%7B1%7D%7B4%7D%3Cx%3C%5Cfrac%7B3%7D%7B4%7D%7D%20%5C%5C%20%7B0%2C%20otherwise%7D%5Cend%7Barray%7D%5Cright.)
 
 ## Problem set 4
 
 ### Part (a)
 
-Plot the errors of the truncated Fourier complex series
+Plots of the error of the truncated Fourier complex series
 
 ![equation](https://latex.codecogs.com/gif.latex?f%20%28%20x%20%29%20-%20%5Csum%20_%20%7B%20n%20%3D%20-%20N%20%7D%20%5E%20%7B%20N%20%7D%20c%20_%20%7B%20n%20%7D%20e%20%5E%20%7B%20i%20n%20x%20%7D)
 
@@ -195,4 +197,6 @@ for different values of N.
 
 [[ plot ]](ps4/figs/parta/12_1_2.png)
 
-f(x) = x on the interval [-π, π].
+![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20x)
+
+on the interval [-π, π].
