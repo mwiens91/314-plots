@@ -176,10 +176,13 @@ Plots of solutions of IBVPs for different points in time.
 
 [[ plots ]](ps3/figs/partb/)
 
+Plots of solutions to the modified heat equation for different
+values of the parameter α in
+
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Barray%7D%20%7B%20l%20%7D%20%7B%20u%20_%20%7B%20t%20%7D%20%3D%20u%20_%20%7B%20x%20x%20%7D%20-%20%5Calpha%20u%20%5Cquad%20%5Ctext%20%7B%20on%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%2C%20%5Cquad%20t%20%3E%200%20%7D%20%5C%5C%20%7B%20u%20%28%20x%20%2C%200%20%29%20%3D%20%5Cpsi%20%28%20x%20%29%20%5Cquad%20%5Ctext%20%7B%20for%20%7D%20%5Cquad%200%20%5Cleq%20x%20%5Cleq%201%20%7D%20%5Cend%7Barray%7D)
 
-for Neumann and periodic boundary conditions with the specific initial
-condition
+for Neumann and, separately, periodic boundary conditions, with the
+initial condition
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bl%7D%7B1%2C%5Cfrac%7B1%7D%7B4%7D%3Cx%3C%5Cfrac%7B3%7D%7B4%7D%7D%20%5C%5C%20%7B0%2C%20otherwise%7D%5Cend%7Barray%7D%5Cright.)
 
