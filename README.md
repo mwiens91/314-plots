@@ -232,3 +232,17 @@ the "distance" of a jump discontinuity.
 ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D%7B0%2C%7D%20%26%20%7B-1%20%5Cleq%20x%3C0%7D%20%5C%5C%20%7B1%2C%7D%20%26%20%7B0%20%5Cleq%20x%20%5Cleq%201%7D%5Cend%7Barray%7D%5Cright.)
 
 on the interval [-1, 1].
+
+### Part (d)
+
+Plot of a complex Fourier series.
+
+#### 12.6.2
+
+plots:
+[[ real component ]](ps4/figs/partd/real.png)
+[[ imaginary component ]](ps4/figs/partd/imag.png)
+
+![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bn%3D-%5Cinfty%7D%5E%7B%5Cinfty%7D%20c_%7Bn%7D%20e%5E%7Bi%20n%20%5Cpi%20x%7D)
+
+on the interval (-1, 1) where c_n = 1/n for n ≠ 0 and c_0 = 0.
