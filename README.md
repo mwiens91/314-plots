@@ -208,6 +208,9 @@ functions.
 
 #### 12.5.1
 
-[ plot ]
+plots:
+[[ f(x) ]](ps4/figs/partb/f.png)
+[[ g(x) ]](ps4/figs/partb/g.png)
+[[ h(x) ]](ps4/figs/partb/h.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20f%28x%29%20%26%3D%7Cx%7C%20%5C%5C%20g%28x%29%20%26%3Dx-x%5E%7B3%7D%20%5C%5C%20h%28x%29%20%26%3D1&plus;x%20%5Cend%7Baligned%7D)
