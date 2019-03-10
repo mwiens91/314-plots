@@ -36,7 +36,7 @@ end
 % Ignore the imaginary parts (since without error they should be nill)
 fs = real(fs);
 
-% Plotting the errors
+% Plotting the series and the line y(x) = -0.09
 figure();
 plot( ...
   xs, fs(1, :), 'k', ...
