@@ -246,3 +246,15 @@ plots:
 ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bn%3D-%5Cinfty%7D%5E%7B%5Cinfty%7D%20c_%7Bn%7D%20e%5E%7Bi%20n%20%5Cpi%20x%7D)
 
 on the interval (-1, 1) where c_n = 1/n for n ≠ 0 and c_0 = 0.
+
+## Problem set 5
+
+### Part (a)
+
+Plot of the time evolution of a solution to the wave equation.
+
+#### 7.1.3
+
+[ plot ]
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3De%5E%7B-%28x&plus;5%29%5E%7B2%7D%7D&plus;e%5E%7B-%28x-5%29%5E%7B2%7D%7D%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5Cend%7Baligned%7D)
