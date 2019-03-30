@@ -267,7 +267,7 @@ Plot of the time evolution of a solution to the wave equation.
 
 ### Part (b)
 
-Plots of an unforced string.
+Plot of an unforced string.
 
 #### 7.2.1
 
@@ -280,3 +280,17 @@ with
 ![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cfrac%7B1%7D%7B10%7D%5Cleft%281-%5Cfrac%7B2%7D%7B25%7D%5Cleft%7Cx-%5Cfrac%7B25%7D%7B2%7D%5Cright%7C%5Cright%29)
 
 and c = 2500.
+
+### Part (c)
+
+Plot of a Dirchlet string at rest with an initial velocity "kick".
+
+#### 7.2.2
+
+[ plot ]
+
+A string with length 50cm, given an initial velocity of
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cgamma%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D%7B-20%2C%7D%20%26%20%7B24%3Cx%3C26%7D%20%5C%5C%20%7B0%2C%7D%20%26%20%7B0%20%5Cleq%20x%20%5Cleq%2024%20%5Ctext%20%7B%20or%20%7D%2026%20%5Cleq%20x%20%5Cleq%2050%7D%5Cend%7Barray%7D%5Cright.)
+
+where c = 400cm/s.
