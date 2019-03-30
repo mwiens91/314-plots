@@ -258,3 +258,9 @@ Plot of the time evolution of a solution to the wave equation.
 [[ plot ]](ps5/figs/parta/7_1_3.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3De%5E%7B-%28x&plus;5%29%5E%7B2%7D%7D&plus;e%5E%7B-%28x-5%29%5E%7B2%7D%7D%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5Cend%7Baligned%7D)
+
+#### 7.1.4
+
+[[ plot ]](ps5/figs/parta/7_1_4.png)
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3De%5E%7B-%28x&plus;5%29%5E%7B2%7D%7D-e%5E%7B-%28x-5%29%5E%7B2%7D%7D%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C-%5Cinfty%3Cx%3C%5Cinfty%20%5Cend%7Baligned%7D)
