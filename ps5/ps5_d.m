@@ -39,7 +39,7 @@ plot( ...
   xs, us(4, :), 'k--' ...
 )
 
-xlabel('x');
+xlabel('x (cm)');
 xlim([0, 25]);
 legend(strcat('u(x,t) with t=', string(ts)));
 title(strcat(problem_number, ' (n=', num2str(nmax), ')'));
@@ -77,7 +77,7 @@ plot( ...
   xs, us(4, :), 'k--' ...
 )
 
-xlabel('x');
+xlabel('x (cm)');
 xlim([0, 25]);
 legend(strcat('u(x,t) with t=', string(ts)));
 title(strcat(problem_number, ' (n=', num2str(nmax), ')'));

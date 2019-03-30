@@ -34,7 +34,7 @@ for i = 1:25
   plot(xs, us(i, :), 'k');
 end
 
-xlabel('x');
+xlabel('x (cm)');
 xlim([0, 25]);
 title(strcat(problem_number, ' — 25 time snapshots (n=', num2str(nmax), ')'));
 
