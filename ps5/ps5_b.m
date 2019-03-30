@@ -36,6 +36,6 @@ end
 
 xlabel('x');
 xlim([0, 25]);
-title(strcat(problem_number, ' — 25 time snapshots'));
+title(strcat(problem_number, ' — 25 time snapshots (n=', num2str(nmax), ')'));
 
 hold off;
