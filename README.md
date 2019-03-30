@@ -295,7 +295,7 @@ Plot of a Dirchlet string at rest with an initial velocity "kick".
 
 #### 7.2.2
 
-[ plot ]
+[[ plot ]](ps5/figs/partc/7_2_2.png)
 
 A string with length 50cm, given an initial velocity of
 
