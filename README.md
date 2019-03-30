@@ -6,6 +6,14 @@ University. Any x.x.x numbering refers to problem numbers from the
 textbook Partial Differential Equations (2nd Edition) by Mark S.
 Gockenbach.
 
+Most of the solutions are cooked up by hand, and usually with help of
+Maple; the plotting of the solutions is done in MATLAB. Only the MATLAB
+code is included in the repository. Some of the MATLAB code is not as
+efficient as it could be; there's usually a trade-off between
+convenience, flexibility, and efficiency—and for this code efficiency
+hasn't been the top priority. So long as a given piece of code runs in a
+reasonable amount of time—say, <1s—I'm happy.
+
 ## Problem set 2
 
 ### Part (a)
