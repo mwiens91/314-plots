@@ -305,13 +305,25 @@ where c = 400cm/s.
 
 ### Part (d)
 
-Plot of a forced string with mixed boundary conditions.
+Plot of a forced string with various boundary conditions.
 
 #### 7.2.3
 
 [[ plot ]](ps5/figs/partd/7_2_3.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D1000%2C0%3Cx%3C25%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3D%5Cpsi%28x%29%2C%200%3Cx%3C25%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C0%3Cx%3C25%20%5C%5C%20u%280%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%2825%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5Cend%7Baligned%7D)
+
+with
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cfrac%7B1%7D%7B10%7D%5Cleft%281-%5Cfrac%7B2%7D%7B25%7D%5Cleft%7Cx-%5Cfrac%7B25%7D%7B2%7D%5Cright%7C%5Cright%29)
+
+and c = 2500.
+
+#### 7.2.5
+
+[[ plot ]](ps5/figs/partd/7_2_5.png)
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D1000%2C0%3Cx%3C25%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3D%5Cpsi%28x%29%2C%200%3Cx%3C25%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C0%3Cx%3C25%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%280%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%2825%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5Cend%7Baligned%7D)
 
 with
 
