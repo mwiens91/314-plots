@@ -333,7 +333,7 @@ and c = 2500cm/s.
 
 ### Part (e)
 
-Plot of a an "unphysical" IBVP (i.e., there's a discontinuous IC).
+Plot of an "unphysical" IBVP (i.e., there's a discontinuous IC).
 
 #### 7.2.3
 
