@@ -317,7 +317,7 @@ with
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cfrac%7B1%7D%7B10%7D%5Cleft%281-%5Cfrac%7B2%7D%7B25%7D%5Cleft%7Cx-%5Cfrac%7B25%7D%7B2%7D%5Cright%7C%5Cright%29)
 
-and c = 2500.
+and c = 2500cm/s.
 
 #### 7.2.5
 
@@ -329,4 +329,20 @@ with
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cfrac%7B1%7D%7B10%7D%5Cleft%281-%5Cfrac%7B2%7D%7B25%7D%5Cleft%7Cx-%5Cfrac%7B25%7D%7B2%7D%5Cright%7C%5Cright%29)
 
-and c = 2500.
+and c = 2500cm/s.
+
+### Part (e)
+
+Plot of a an "unphysical" IBVP (i.e., there's a discontinuous IC).
+
+#### 7.2.3
+
+[[ plot ]](ps5/figs/parte/7_2_10.png)
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20v%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20v%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3D0%2C0%3Cx%3C50%2C%20t%3E0%20%5C%5C%20v%28x%2C%200%29%20%26%3D%5Cpsi%28x%29%2C%200%3Cx%3C50%20%5C%5C%20%5Cfrac%7B%5Cpartial%20v%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C0%3Cx%3C50%20%5C%5C%20v%280%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5C%5C%20v%2850%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5Cend%7Baligned%7D)
+
+with
+
+![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D%7B-1%2C%7D%20%26%20%7B24%3Cx%3C26%7D%20%5C%5C%20%7B0%2C%7D%20%26%20%7B0%20%5Cleq%20x%20%5Cleq%2024%20%5Ctext%20%7B%20or%20%7D%2026%20%5Cleq%20x%20%5Cleq%2050%7D%5Cend%7Barray%7D%5Cright.)
+
+and c = 1cm/s.
