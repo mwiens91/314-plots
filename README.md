@@ -346,3 +346,18 @@ with
 ![equation](https://latex.codecogs.com/gif.latex?%5Cpsi%28x%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bll%7D%7B-1%2C%7D%20%26%20%7B24%3Cx%3C26%7D%20%5C%5C%20%7B0%2C%7D%20%26%20%7B0%20%5Cleq%20x%20%5Cleq%2024%20%5Ctext%20%7B%20or%20%7D%2026%20%5Cleq%20x%20%5Cleq%2050%7D%5Cend%7Barray%7D%5Cright.)
 
 and c = 1cm/s.
+
+### Part (f)
+
+Plot of an iron bar's displacement (see the textbook for details about
+physical constants, etc.).
+
+#### 7.4.3
+
+plots:
+[[ least resonant frequency ]](ps5/figs/partf/resonant.png)
+[[ quarter of least resonant frequency ]](ps5/figs/partf/nonresonant.png)
+
+An iron bar subject to an oscillatory pressure
+
+![equation](https://latex.codecogs.com/gif.latex?k%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20x%7D%280%2C%20t%29%3DB%20%5Csin%20%282%20%5Cpi%20%5Comega%20t%29%2C%20t%3E0)
