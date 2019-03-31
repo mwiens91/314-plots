@@ -259,7 +259,7 @@ on the interval (-1, 1) where c_n = 1/n for n ≠ 0 and c_0 = 0.
 
 ### Part (a)
 
-Plot of the time evolution of a solution to the wave equation.
+Plots of the time evolution of solutions to the wave equation.
 
 #### 7.1.3
 
