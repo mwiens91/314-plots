@@ -368,7 +368,7 @@ Plot of a periodically forced IBVP.
 
 #### 7.4.5
 
-[ plot ]
+[[ plot ]](ps5/figs/partg/7_3_5.png)
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Baligned%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20t%5E%7B2%7D%7D-c%5E%7B2%7D%20%5Cfrac%7B%5Cpartial%5E%7B2%7D%20u%7D%7B%5Cpartial%20x%5E%7B2%7D%7D%20%26%3Df%28x%2C%20t%29%2C%200%3Cx%3C1%2C%20t%3E0%20%5C%5C%20u%28x%2C%200%29%20%26%3D0%2C0%3Cx%3C1%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%28x%2C%200%29%20%26%3D0%2C0%3Cx%3C1%20%5C%5C%20u%280%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5C%5C%20u%281%2C%20t%29%20%26%3D0%2C%20t%3E0%20%5Cend%7Baligned%7D)
 
