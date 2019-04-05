@@ -383,24 +383,20 @@ c = 55 and omega = 120.
 ### Part (a)
 
 Plots of numerically computed complex Fourier series (using fast
-Fourier transforms) for functions f,g: [-l, l] -> ℝ.
-
-#### f
-
-plots:
-[ Fourier series ]
-[ absolute error ]
+Fourier transforms) for functions f,g: [-l, l] -> ℝ:
 
 ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%3De%5E%7Bx%5E%7B3%7D%7D)
 
-l = 1
+![equation](https://latex.codecogs.com/gif.latex?g%28x%29%3De%5E%7B-x%5E%7B4%7D%7D)
 
-#### g
+#### f(x)
 
 plots:
 [ Fourier series ]
 [ absolute error ]
 
-![equation](https://latex.codecogs.com/gif.latex?g%28x%29%3De%5E%7B-x%5E%7B4%7D%7D)
+#### g(x)
 
-l = 4
+plots:
+[ Fourier series ]
+[ absolute error ]
