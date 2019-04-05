@@ -400,3 +400,14 @@ plots:
 plots:
 [[ Fourier series ]](ps6/figs/parta/g_reconstruction.png)
 [[ absolute error ]](ps6/figs/parta/g_error.png)
+
+### Part (b)
+
+[ plots ]
+
+Plots of the numerical solution to the wave equation on the interval
+[-5, 5] with initial data
+
+![equation](https://latex.codecogs.com/gif.latex?u%28x%2C%200%29%3De%5E%7B-%28x-1%29%5E%7B4%7D%7D%2C%20%5Cquad%20u_%7Bt%7D%28x%2C%200%29%3D0)
+
+and periodic boundary conditions.
