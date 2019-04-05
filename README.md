@@ -403,7 +403,7 @@ plots:
 
 ### Part (b)
 
-[ plots ]
+[[ plot ]](ps6/figs/partb/plot.png)
 
 Plots of the numerical solution to the wave equation on the interval
 [-5, 5] with initial data
