@@ -1,7 +1,7 @@
 % Parameters
 l = 5;
 c = 1;
-N = 2^9;
+N = 2^12;
 
 % Space and time values
 h = 2*l/N;
@@ -22,6 +22,6 @@ u_approx = fftshift(ifft(u_coeff, [], 2, 'symmetric'), 2);
 
 % Plot
 figure();
-plot(xs, u_approx(1, :), xs, u_approx(2, :), xs, u_approx(3, :));
+plot(xs, u_approx(1, :), 'k', xs, u_approx(2, :), 'k--', xs, u_approx(3, :), 'k-.');
 legend(strcat('u(x,t) with t=', string(ts)));
 title(strcat('Numerically computed solution u(x,t) (N=', num2str(N), ')'));
