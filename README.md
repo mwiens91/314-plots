@@ -392,11 +392,11 @@ Fourier transforms) for functions f,g: [-l, l] -> ℝ:
 #### f(x)
 
 plots:
-[ Fourier series ]
-[ absolute error ]
+[[ Fourier series ]](ps6/figs/parta/f_reconstruction.png)
+[[ absolute error ]](ps6/figs/parta/f_error.png)
 
 #### g(x)
 
 plots:
-[ Fourier series ]
-[ absolute error ]
+[[ Fourier series ]](ps6/figs/parta/g_reconstruction.png)
+[[ absolute error ]](ps6/figs/parta/g_error.png)
