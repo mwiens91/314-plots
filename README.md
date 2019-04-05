@@ -377,3 +377,28 @@ where
 ![equation](https://latex.codecogs.com/gif.latex?f%28x%2C%20t%29%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bcc%7D%7B%5Csin%20%282%20%5Cpi%20%5Comega%20t%29%2C%7D%20%26%20%7B0.6%3Cx%3C0.65%7D%20%5C%5C%20%7B0%7D%20%26%20%7B%5Ctext%20%7B%20otherwise%20%7D%7D%5Cend%7Barray%7D%5Cright.)
 
 c = 55 and omega = 120.
+
+## Problem set 6
+
+### Part (a)
+
+Plots of numerically computed complex Fourier series (using fast
+Fourier transforms) for functions f,g: [-l, l] -> ℝ.
+
+#### f
+
+plots:
+[ Fourier series ]
+[ absolute error ]
+
+![equation](https://latex.codecogs.com/gif.latex?f%28x%29%3De%5E%7Bx%5E%7B3%7D%7D)
+l = 1
+
+#### g
+
+plots:
+[ Fourier series ]
+[ absolute error ]
+
+![equation](https://latex.codecogs.com/gif.latex?g%28x%29%3De%5E%7B-x%5E%7B4%7D%7D)
+l = 4
