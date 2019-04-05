@@ -392,6 +392,7 @@ plots:
 [ absolute error ]
 
 ![equation](https://latex.codecogs.com/gif.latex?f%28x%29%3De%5E%7Bx%5E%7B3%7D%7D)
+
 l = 1
 
 #### g
@@ -401,4 +402,5 @@ plots:
 [ absolute error ]
 
 ![equation](https://latex.codecogs.com/gif.latex?g%28x%29%3De%5E%7B-x%5E%7B4%7D%7D)
+
 l = 4
