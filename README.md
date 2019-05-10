@@ -15,10 +15,10 @@ hasn't been the top priority. So long as a given piece of code runs in a
 reasonable amount of time—say, <1s—I'm happy.
 
 One other note: sometimes the equations in this readme make
-[codecogs](https://latex.codecogs.com/gif.latex?-%20%5Cfrac%7Bd%5E2u%7D%7Bdx%5E2%7D%20%3D%201%2C%20u%280%29%20%3D%20u%281%29%20%3D%200)
-(the service used to render the latex equations) unhappy, seemingly
-randomly (sometimes they render, sometimes not). I probably won't use
-this service in the future because of that, but I'm not going to bother
+[codecogs](https://www.codecogs.com/latex/eqneditor.php) (the service
+used to render the latex equations) unhappy, seemingly randomly
+(sometimes they render, sometimes not). I probably won't use this
+service in the future because of that, but I'm not going to bother
 retroactively changing all the equations to use a different service.
 
 ## Problem set 2
